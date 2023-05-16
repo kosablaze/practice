@@ -2,13 +2,20 @@
 <html>
     <head>
         <title>Elite Elegance.com</title>
-
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- General Style Section -->
         <style>
             body {
                 font-family: Arial, sans-serif;
                 margin: 0;
                 padding: 0;
+            }
+
+            .container {
+                max-width: 100%;
+                padding: 20px;
+                box-sizing: border-box;
+                margin: 0 auto;
             }
 
             header {
@@ -54,6 +61,10 @@
                 background-color: #e6bfbf;
             }
             
+            img {
+                max-width: 100%;
+                height: auto;
+            }
             .active {
                 background-color: #04AA6D;
             }
@@ -70,37 +81,40 @@
 
     <!-- Main homepage section -->
     <body>
-        <header>
-            <h1>Elite Elegance <img src="company logo.png" style="width: 100px;;height: 40px;;"></li></h1>
-        </header>
-  
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about-us.html">About</a></li>
-                <li><a href="products.html">Products</a></li>
-                <li><a href="contacts.html">Contact</a></li>
-            </ul>
-        </nav>
-        <main style="background-color: #e9d3d3;">
-            <div class="image-gallery">
-                <img src="Fashion1.jpg" style="width: 1325px;;height: 800px;;">
-                <img src="closeup-shot-cool-looking-afro-american-girl-posing-with-some-shopping-bags.jpg" style="width: 1325px;;height: 800px;;">
-
-                <img src="wallpaperflare.com_wallpaper.jpg" style="width: 1325px;;height: 800px:;">
-            </div>
-
-            <h2>About Us</h2>
-            <p>Welcome to Elite Elegance, where sophistication meets style. We are a premier fashion company dedicated to providing discerning individuals with exquisite and timeless clothing and accessories.
-
-                At Elite Elegance, we believe that true elegance goes beyond mere appearances. It is an attitude, a way of life. Our mission is to empower our customers to embrace their unique sense of style and...... <a href="about-us.html">Read more</a>  
-            </p>
-            <h2>Our Products</h2>
-            <p>Each item in our curated selection has been carefully chosen to embody the essence of elegance, sophistication.....<a href="products.html">Read more</a> </p>
-        </main>
-
-        <footer>
-            <p>&copy; 2023 Elite Elegance. All rights reserved.</p>
-        </footer>
+        <div class="container">
+            <header>
+                <h1>Elite Elegance <img src="company logo.png" style="width: 100px;;height: 40px;;"></li></h1>
+            </header>
+      
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about-us.html">About</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="contacts.html">Contact</a></li>
+                </ul>
+            </nav>
+            <main style="background-color: #e9d3d3;">
+                <div class="image-gallery">
+                    <img src="Fashion1.jpg" style="width: 1325px;;height: 800px;;">
+                    <img src="closeup-shot-cool-looking-afro-american-girl-posing-with-some-shopping-bags.jpg" style="width: 1325px;;height: 800px;;">
+    
+                    <img src="wallpaperflare.com_wallpaper.jpg" style="width: 1325px;;height: 800px;">
+                </div>
+    
+                <h2>About Us</h2>
+                <p>Welcome to Elite Elegance, where sophistication meets style. We are a premier fashion company dedicated to providing discerning individuals with exquisite and timeless clothing and accessories.
+    
+                    At Elite Elegance, we believe that true elegance goes beyond mere appearances. It is an attitude, a way of life. Our mission is to empower our customers to embrace their unique sense of style and...... <a href="about-us.html">Read more</a>  
+                </p>
+                <h2>Our Products</h2>
+                <p>Each item in our curated selection has been carefully chosen to embody the essence of elegance, sophistication.....<a href="products.html">Read more</a> </p>
+            </main>
+    
+            <footer>
+                <p>&copy; 2023 Elite Elegance. All rights reserved.</p>
+            </footer>
+        </div>
+        
     </body>
 </html>

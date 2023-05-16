@@ -4,6 +4,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <title>Contact Us - Elite Elegance</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- General Style Section -->
         <style>
@@ -13,6 +14,17 @@
                 padding: 0;
             }
 
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+
+            .container {
+                max-width: 100%;
+                padding: 20px;
+                box-sizing: border-box;
+                margin: 0 auto;
+            }
             header {
                 background-color: #081e66;
                 color: #fff;
@@ -115,63 +127,66 @@
         
     <!-- Contact details and feedback-->>
     <body style="background-color: #e9d3d3;">
-        <header>
-            <h1>Welcome to Elite Elegance</h1>
-        </header>
-  
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="products.html">Products</a></li>
-                <li><a href="contacts.html">Contact</a></li>
-            </ul>
-        </nav>
-
-        
-        <!-- feedback section -->
-        <main style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
-            <h2>Contact Us</h2>
-            <p>Feel free to reach out to us with any questions or inquiries. Our dedicated team is here to assist you.</p>
+        <div class="container">
+            <header>
+                <h1>Welcome to Elite Elegance</h1>
+            </header>
+      
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="contacts.html">Contact</a></li>
+                </ul>
+            </nav>
     
-            <p>Email: info@eliteelegance.com</p>
-            <p>Phone: +1 123-456-7890</p>
-
             
-            <a href="https://www.facebook.com/kosalarry" class="fa fa-facebook" target="_blank"></a>
-            <a href="https://www.twitter.com/kosablaze1/" class="fa fa-twitter" target="_blank"></a>
-            <a href="https://www.instagram.com/kosa.larry/" class="fa fa-instagram" target="_blank"></a>
-
-            <form action="/action_page.php" method="get" autocomplete="on" style="background-color: #081e66; border-radius: 10px; color: #e6bfbf;">
-                <fieldset>
-                    <legend style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Hi! &#128526; <br> How can we help you? </legend>
-                    <input type="text" id="firstname" name="firstname" placeholder="Firstname" required style="margin-right: 10px;">
+            <!-- feedback section -->
+            <main style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                <h2>Contact Us</h2>
+                <p>Feel free to reach out to us with any questions or inquiries. Our dedicated team is here to assist you.</p>
         
-                    <input type="text" id="lastname" name="lastname" placeholder="Lastname" required><br><br>
-                    
-                    <input type="email" id="email" name="email" placeholder="Type Your Email" required style="margin-right: 10px;">
-        
-                    <input type="tel" id="phone" name="phone" placeholder="Type Your Phone Number" required><br><br>
-        
-                    <label for="gender">Gender:</label>
-                    <input type="radio" id="male" name="gender" value="male">Male
-                    <input type="radio" id="female" name="gender" value="female">Female
-                    <br><br>
-                    <textarea name="message" rows="20" cols="50" placeholder="How can we be of assistance to you"></textarea><br><br>
-                    <input type="submit" value="Submit" class="btn-submit"><br><br>
-                </fieldset>
-            </form>
-        
-
-            <p><a href="index.html">Go back to the homepage</a></p>
-        </main>
-
-        <!-- footer section -->
-        <footer>
-            <a href="index.html">
-                <p style="color: #f1f1f1;">&copy; 2023 Elite Elegance. All rights reserved.</p>
-                <img src="Pastel Watercolor Floral Beauty Blogger Logo.png" style="width: 20px;;height: 20px;;" alt="Star stars">
-            </a>
-        </footer>
+                <p>Email: info@eliteelegance.com</p>
+                <p>Phone: +1 123-456-7890</p>
+    
+                
+                <a href="https://www.facebook.com/kosalarry" class="fa fa-facebook" target="_blank"></a>
+                <a href="https://www.twitter.com/kosablaze1/" class="fa fa-twitter" target="_blank"></a>
+                <a href="https://www.instagram.com/kosa.larry/" class="fa fa-instagram" target="_blank"></a>
+    
+                <form action="/action_page.php" method="get" autocomplete="on" style="background-color: #081e66; border-radius: 10px; color: #e6bfbf;">
+                    <fieldset>
+                        <legend style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Hi! &#128526; <br> How can we help you? </legend>
+                        <input type="text" id="firstname" name="firstname" placeholder="Firstname" required style="margin-right: 10px;">
+            
+                        <input type="text" id="lastname" name="lastname" placeholder="Lastname" required><br><br>
+                        
+                        <input type="email" id="email" name="email" placeholder="Type Your Email" required style="margin-right: 10px;">
+            
+                        <input type="tel" id="phone" name="phone" placeholder="Type Your Phone Number" required><br><br>
+            
+                        <label for="gender">Gender:</label>
+                        <input type="radio" id="male" name="gender" value="male">Male
+                        <input type="radio" id="female" name="gender" value="female">Female
+                        <br><br>
+                        <textarea name="message" rows="20" cols="50" placeholder="How can we be of assistance to you"></textarea><br><br>
+                        <input type="submit" value="Submit" class="btn-submit"><br><br>
+                    </fieldset>
+                </form>
+            
+    
+                <p><a href="index.html">Go back to the homepage</a></p>
+            </main>
+    
+            <!-- footer section -->
+            <footer>
+                <a href="index.html">
+                    <p style="color: #f1f1f1;">&copy; 2023 Elite Elegance. All rights reserved.</p>
+                    <img src="Pastel Watercolor Floral Beauty Blogger Logo.png" style="width: 20px;;height: 20px;;" alt="Star stars">
+                </a>
+            </footer>
+    
+        </div>
     </body>
 </html>
